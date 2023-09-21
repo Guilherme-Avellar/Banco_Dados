@@ -141,7 +141,7 @@ SELECT nome, telefone
 FROM Cliente 
 WHERE email NOT LIKE '%@gmail.com';
 
-
+DELETE FROM Cliente WHERE nome = 'Nivaldo';
 
 
 
