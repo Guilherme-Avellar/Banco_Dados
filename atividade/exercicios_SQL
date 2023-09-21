@@ -130,3 +130,18 @@ INSERT INTO Pedido VALUES
 (11,'2023-02-25',1,8,7379.00),
 (12,'2023-02-25',1,16,7379.00);
 
+select * from Produto
+where idtipo = 3;
+
+update Produto 
+set precounitario = precounitario * 1.1
+where idtipo = 9;
+
+SELECT nome, telefone 
+FROM Cliente 
+WHERE email NOT LIKE '%@gmail.com';
+
+
+
+
+
